@@ -1,0 +1,41 @@
+version: '2'
+services:
+  codegnan-django:
+    build:
+      context: .
+      dockerfile: Dockerfile_django
+    image: codegnan.django
+    container_name: codegnan_django
+    volumes:
+      - ../.:/Sites/online_test
+    depends_on:
+      - codegnan-db
+      - codegnan-codeserver
+    links:
+      - codegnan-db
+      - codegnan-codeserver
+    ports:
+      - 8000:80
+    restart: always
+
+
+  codegnan-codeserver:
+    build:
+      context: .
+      dockerfile: Dockerfile_codeserver
+    image: codegnan.codeserver
+    container_name: codegnan_codeserver
+    volumes:
+      - ..:/Sites/online_test
+    restart: always 
+
+
+  codegnan-db:
+    image: mariadb:10.2
+    container_name: codegnan_db
+    volumes:
+      - ./mysql:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: codegnan
+    restart: always 

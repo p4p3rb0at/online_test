@@ -1,0 +1,9 @@
+include LICENSE
+include README.md
+recursive-include codegnan/static *
+recursive-include codegnan/templates *
+recursive-include codegnan/demo_templates *
+recursive-include codegnan/management *
+recursive-include codegnan/output *
+recursive-include codegnan/fixtures *
+recursive-include codegnan/docs *
