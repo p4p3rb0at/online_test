@@ -17,7 +17,7 @@ Release testing guide:
 
 2. Authentication:
    ---------------
-   a. **Signing up on Yaksh:**
+   a. **Signing up on Codegnan:**
       - On landing page, click on sign up button.
       - On the user registration form, try registering with an empty field.This should redirect to the same page with the field necessary notification.
       - Try the same thing with all fields filled. This should register and redirect to quizzes page.

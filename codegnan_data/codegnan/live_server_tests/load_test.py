@@ -10,10 +10,10 @@ from codegnan import settings
 from .selenium_test import SeleniumTest
 
 
-class YakshSeleniumTests(StaticLiveServerTestCase):
+class CodegnanSeleniumTests(StaticLiveServerTestCase):
     @classmethod
     def setUpClass(cls):
-        super(YakshSeleniumTests, cls).setUpClass()
+        super(CodegnanSeleniumTests, cls).setUpClass()
         # setup a demo code server
         settings.code_evaluators['python']['standardtestcase'] = \
             "codegnan.python_assertion_evaluator.PythonAssertionEvaluator"
@@ -73,13 +73,13 @@ class YakshSeleniumTests(StaticLiveServerTestCase):
         cls.code_server_pool.stop()
         cls.code_server_thread.join()
 
-        super(YakshSeleniumTests, cls).tearDownClass()
+        super(CodegnanSeleniumTests, cls).tearDownClass()
 
     def test_load(self):
         url = '%s%s' % (self.live_server_url, '/exam/login/')
-        quiz_name = "Yaksh Demo quiz"
+        quiz_name = "Codegnan Demo quiz"
         module_name = "Demo Module"
-        course_name = "Yaksh Demo course"
+        course_name = "Codegnan Demo course"
         selenium_test = SeleniumTest(url=url, quiz_name=quiz_name,
                                      module_name=module_name,
                                      course_name=course_name)

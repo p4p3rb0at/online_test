@@ -171,7 +171,7 @@ JavaStdIOEvaluator
 * Fixed Nonetype error due to incorrect if-else during course code search
 * Fixed course filter query to display only non trial courses on the dashboard
 * Upgrade Django version
-* Fixed multiple bugs in Offline and Online Yaksh interface
+* Fixed multiple bugs in Offline and Online Codegnan interface
 
 === 0.10.0 (24-04-2019) ===
 
@@ -224,7 +224,7 @@ JavaStdIOEvaluator
 * Yaml files can be used to upload Questions along with zip files.
   Support for uploading multiple Yaml files at once also added.
 * Moderator can switch between student and moderator from the dashboard.
-* Updated Yaksh to act like a Django app. Updated pip package.
+* Updated Codegnan to act like a Django app. Updated pip package.
 * Appropriate Exceptions are raised for C, C++ and Java assertion and
   STDIO questions.
 * Fixed a bug that would create multiple TestCaseOrder objects for an
@@ -255,7 +255,7 @@ JavaStdIOEvaluator
 * Fixed assignment upload feature.
 * Error output is displayed using Ajax instead of reloading the entire page.
 * Added Mathjax to the repository.
-* Added Yaksh logo on the website.
+* Added Codegnan logo on the website.
 * Changed travis build distribution from precise (Ubuntu 12.04 LTS) to trusty (Ubuntu 14.04 LTS).
 * Fixed a bug that allowed creation of multiple answerpapers.
 * Added MCQ/MCC Shuffle testcases feature for question paper.

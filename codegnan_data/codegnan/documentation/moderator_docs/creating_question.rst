@@ -5,7 +5,7 @@ Questions
 Setting up questions
 --------------------
 
-    Setting up questions is the most important part of the Yaksh experience. Questions can be of multiple types i.e Multiple choice questions (MCQ), Multiple correct choices (MCC), Coding questions, assignment upload, fill in the blanks.
+    Setting up questions is the most important part of the Codegnan experience. Questions can be of multiple types i.e Multiple choice questions (MCQ), Multiple correct choices (MCC), Coding questions, assignment upload, fill in the blanks.
 
     To set up a question click on the questions link in the navigation bar.
 

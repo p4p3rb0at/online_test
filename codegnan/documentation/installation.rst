@@ -9,7 +9,7 @@ Python 3.6, 3.7, 3.8
 
 Django 3.0.3
 
-Installing Yaksh
+Installing Codegnan
 ----------------
 
 If Python 3.6 and above is not available in the system, then we recommend using
@@ -27,11 +27,11 @@ miniconda
 
 * Ensure  `pip <https://pip.pypa.io/en/latest/installing.html>`_ is installed
 
-**Installing Yaksh**
+**Installing Codegnan**
 
     1. **Clone the repository**::
 
-            git clone https://github.com/FOSSEE/online_test.git
+            git clone https://github.com/PAPERBOAT/online_test.git
 
     2. **Go to the online_test directory**::
 
@@ -145,7 +145,7 @@ Production Deployment
 
            ::
 
-               $ git clone  https://github.com/FOSSEE/online_test.git
+               $ git clone  https://github.com/PAPERBOAT/online_test.git
 
         2. Rename the ``.sampleenv`` to ``.env``
 

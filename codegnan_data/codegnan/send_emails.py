@@ -30,7 +30,7 @@ def send_user_mail(user_mail, key):
     """
     try:
         to = user_mail
-        subject = 'Yaksh Email Verification'
+        subject = 'Codegnan Email Verification'
         message = dedent("""\
                 To activate your account and verify your email address,
                 please click the following link:

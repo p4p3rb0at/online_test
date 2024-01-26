@@ -180,7 +180,7 @@ class TestProfile(TestCase):
         updated_profile_user = User.objects.get(id=self.user2.id)
         updated_profile = Profile.objects.get(user=updated_profile_user)
         self.assertEqual(post_response.status_code, 200)
-        self.assertEqual(subject, "Yaksh_Email_Verification")
+        self.assertEqual(subject, "Codegnan_Email_Verification")
         self.assertEqual(get_response.status_code, 200)
         self.assertEqual(updated_profile.is_email_verified, True)
         self.assertTemplateUsed(get_response, 'codegnan/activation_status.html')

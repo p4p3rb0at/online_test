@@ -1,7 +1,7 @@
-Welcome to Yaksh's documentation!
+Welcome to Codegnan's documentation!
 =================================
 
-Yaksh lets user create and take online programming quiz.  Yaksh is an open source project developed by FOSSEE. The code is available on `github <https://github.com/fossee/online_test>`_.
+Codegnan lets user create and take online programming quiz.  Codegnan is an open source project developed by PAPERBOAT. The code is available on `github <https://github.com/p4p3rb0at/online_test>`_.
 	
 The user documentation for the site is organized into a few sections:
 

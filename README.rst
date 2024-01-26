@@ -1,12 +1,12 @@
-Yaksh
+Codegnan
 =====
 
 |Build Status| |Documentation Status| |Version Status| |Coverage Status|
 
-To get an overview of the Yaksh interface please refer to the user documentation at `Yaksh Docs <http://codegnan.readthedocs.io>`_
+To get an overview of the Codegnan interface please refer to the user documentation at `Codegnan Docs <http://codegnan.readthedocs.io>`_
 
 
-This is a Quickstart guide to help users setup a trial instance. If you wish to deploy Yaksh in a production environment here is a `Production Deployment Guide <https://github.com/FOSSEE/online\_test/blob/master/README\_production.rst>`_
+This is a Quickstart guide to help users setup a trial instance. If you wish to deploy Codegnan in a production environment here is a `Production Deployment Guide <https://github.com/PAPERBOAT/online\_test/blob/master/README\_production.rst>`_
 
 Introduction
 ============
@@ -32,7 +32,7 @@ Features
 -  Scales to over 500+ simultaneous users.
 -  Distributed under the BSD license.
 
-To get a glimpse of all the available features check our demo website https://codegnan-demo.fossee.in. It has 50 teacher and student login.
+To get a glimpse of all the available features check our demo website https://codegnan-demo.p4p3rb0at.in. It has 50 teacher and student login.
 
 **Sample teacher login**
 
@@ -101,13 +101,13 @@ miniconda. Download miniconda with Python 3.6 and above.
 
 * Ensure  `pip <https://pip.pypa.io/en/latest/installing.html>`_ is installed
 
-**Installing Yaksh**
+**Installing Codegnan**
 
 * **Clone the repository**
 
   ::
 
-      git clone https://github.com/FOSSEE/online_test.git
+      git clone https://github.com/PAPERBOAT/online_test.git
 
 * **Go to the online_test directory**
 
@@ -181,20 +181,20 @@ Quick Start
 History
 =======
 
-At FOSSEE, Nishanth had implemented a nice django based app to test for
-multiple-choice questions. Prabhu Ramachandran was inspired by a
-programming contest that he saw at PyCon APAC 2011. Chris Boesch, who
+At PAPERBOAT, A had implemented a nice django based app to test for
+multiple-choice questions. B was inspired by a
+programming contest that he saw at PyCon APAC 2011. c, who
 administered the contest, used a nice web application
 `Singpath <http://singpath.com>`__ that he had built on top of GAE that
 basically checked your Python code, live. This made it fun and
 interesting.
 
-Prabhu wanted an implementation that was not tied to GAE and hence wrote
-the initial cut of what is now 'Yaksh'. The idea being that anyone can
+B wanted an implementation that was not tied to GAE and hence wrote
+the initial cut of what is now 'Codegnan'. The idea being that anyone can
 use this to test students programming skills and not have to worry about
 grading their answers manually and instead do so on their machines.
 
-The application has since been refactored and maintained by FOSSEE
+The application has since been refactored and maintained by PAPERBOAT
 Developers.
 
 Contact
@@ -202,7 +202,7 @@ Contact
 
 For further information and support you can contact
 
-Python Team at FOSSEE: pythonsupport@fossee.in
+Python Team at PAPERBOAT: info@codegnan.com
 
 License
 =======
@@ -213,16 +213,16 @@ information is at the bottom of this file.
 Authors
 =======
 
-`FOSSEE Developers <https://github.com/FOSSEE/online_test/graphs/contributors>`_
+`PAPERBOAT Developers <https://github.com/PAPERBOAT/online_test/graphs/contributors>`_
 
-Copyright (c) 2011-2017 `FOSSEE <https://fossee.in>`_
+Copyright (c) 2011-2017 `PAPERBOAT <https://p4p3rb0at.in>`_
 
 
-.. |Build Status| image:: https://travis-ci.org/FOSSEE/online_test.svg?branch=master
-   :target: https://travis-ci.org/FOSSEE/online_test
+.. |Build Status| image:: https://travis-ci.org/PAPERBOAT/online_test.svg?branch=master
+   :target: https://travis-ci.org/PAPERBOAT/online_test
 .. |Documentation Status| image:: https://readthedocs.org/projects/codegnan/badge/?version=latest
    :target: http://codegnan.readthedocs.io/en/latest/?badge=latest
-.. |Version Status| image:: https://badge.fury.io/gh/fossee%2Fonline_test.svg
-    :target: https://badge.fury.io/gh/fossee%2Fonline_test
-.. |Coverage Status| image:: https://codecov.io/gh/fossee/online_test/branch/master/graph/badge.svg
-    :target: https://codecov.io/gh/fossee/online_test
+.. |Version Status| image:: https://badge.fury.io/gh/p4p3rb0at%2Fonline_test.svg
+    :target: https://badge.fury.io/gh/p4p3rb0at%2Fonline_test
+.. |Coverage Status| image:: https://codecov.io/gh/p4p3rb0at/online_test/branch/master/graph/badge.svg
+    :target: https://codecov.io/gh/p4p3rb0at/online_test

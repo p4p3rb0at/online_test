@@ -1,9 +1,9 @@
 Production Deployment
 =====================
 
-This README provides documentation to help deploy Yaksh in a production
-environment. If you wish to take Yaksh on a trial run, here is a
-`Quickstart Guide <https://github.com/FOSSEE/online\_test/blob/master/README.rst>`__
+This README provides documentation to help deploy Codegnan in a production
+environment. If you wish to take Codegnan on a trial run, here is a
+`Quickstart Guide <https://github.com/PAPERBOAT/online\_test/blob/master/README.rst>`__
 
 
 Requirements
@@ -18,7 +18,7 @@ Django 3.0.3
 Deploying Locally
 ###################
 
-Follow these steps to deploy locally on the server. For deployment instructions using Docker see `Deploying Multiple Dockers <https://github.com/FOSSEE/online_test/blob/add-docker-compose-test/README_production.rst#deploying-multiple-dockers>`__
+Follow these steps to deploy locally on the server. For deployment instructions using Docker see `Deploying Multiple Dockers <https://github.com/PAPERBOAT/online_test/blob/add-docker-compose-test/README_production.rst#deploying-multiple-dockers>`__
 
 Pre-Requisite
 ^^^^^^^^^^^^^
@@ -59,13 +59,13 @@ To install this app follow the steps below:
 
    ::
 
-      git clone  https://github.com/FOSSEE/online_test.git
+      git clone  https://github.com/PAPERBOAT/online_test.git
 
    ::
 
       cd online_test
 
-2. Install Yaksh dependencies, Run
+2. Install Codegnan dependencies, Run
 
    ::
 
@@ -121,7 +121,7 @@ To install this app follow the steps below:
     to execute the submitted code.
 
     You can also use a Dockerized code server,
-    see :ref:`Dockerized Code Server <https://github.com/FOSSEE/online_test/blob/add-docker-compose-test/README_production.rst#using-dockerized-code-server>`__
+    see :ref:`Dockerized Code Server <https://github.com/PAPERBOAT/online_test/blob/add-docker-compose-test/README_production.rst#using-dockerized-code-server>`__
 
 
 7.  The ``wsgi.py`` script should make it easy to deploy this using

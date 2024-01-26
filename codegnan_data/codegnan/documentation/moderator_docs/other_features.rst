@@ -5,7 +5,7 @@ Other Features
 Grade User
 ----------
 
-	Grade User is a feature of Yaksh to access students' answer papers for each quiz and grade them where necessary.
+	Grade User is a feature of Codegnan to access students' answer papers for each quiz and grade them where necessary.
 
 	Clicking on the **Grade User** link from the nav bar will show all the courses.
 
@@ -18,7 +18,7 @@ Grade User
 Monitor
 -------
 
-	Monitor is a feature of Yaksh where the moderator can monitor a quiz and view statistics.
+	Monitor is a feature of Codegnan where the moderator can monitor a quiz and view statistics.
 
 	Clicking on the **Monitor** link from the nav bar will show all the courses.
 

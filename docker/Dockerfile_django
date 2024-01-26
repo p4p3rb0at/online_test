@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-MAINTAINER FOSSEE <pythonsupport@fossee.in>
+MAINTAINER PAPERBOAT <info@codegnan.com>
 
 RUN apt-get update -y && apt-get install  git python3-pip vim libmysqlclient-dev sudo -y
 

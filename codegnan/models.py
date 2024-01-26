@@ -548,7 +548,7 @@ class Quiz(models.Model):
             end_date_time=timezone.now() + timedelta(176590),
             duration=30, active=True,
             attempts_allowed=-1, time_between_attempts=0,
-            description='Yaksh Demo quiz', pass_criteria=0,
+            description='Codegnan Demo quiz', pass_criteria=0,
             creator=user, instructions="<b>This is a demo quiz.</b>"
         )
         return demo_quiz
@@ -1033,9 +1033,9 @@ class Course(models.Model):
 
     def create_demo(self, user):
         course = Course.objects.filter(creator=user,
-                                       name="Yaksh Demo course").exists()
+                                       name="Codegnan Demo course").exists()
         if not course:
-            course = Course.objects.create(name="Yaksh Demo course",
+            course = Course.objects.create(name="Codegnan Demo course",
                                            enrollment="open",
                                            creator=user)
             quiz = Quiz()

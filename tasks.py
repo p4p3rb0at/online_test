@@ -12,7 +12,7 @@ from codegnan.settings import SERVER_POOL_PORT
 
 SCRIPT_DIR = os.path.abspath(os.path.dirname(__file__))
 TARGET_CONTAINER_NAME = 'codegnan_code_server'
-SRC_IMAGE_NAME = 'fossee/codegnan_codeserver'
+SRC_IMAGE_NAME = 'p4p3rb0at/codegnan_codeserver'
 CHECK_FILE = 'server_running.txt'
 CHECK_FILE_PATH = os.path.join(SCRIPT_DIR, 'codegnan_data', CHECK_FILE)
 OS_NAME = sys.platform

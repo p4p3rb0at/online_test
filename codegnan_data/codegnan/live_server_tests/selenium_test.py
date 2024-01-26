@@ -47,7 +47,7 @@ class SeleniumTest():
         except Exception as e:
             self.driver.close()
             msg = ("An Error occurred while running the Selenium load"
-                   " test on Yaksh!\n"
+                   " test on Codegnan!\n"
                    "Error:\n{0}".format(e))
 
             raise SeleniumTestError(msg)
@@ -181,7 +181,7 @@ def user_gen(url, ids):
 
 
 def wrap_run_load_test(args):
-    url = "http://codegnan.fossee.aero.iitb.ac.in/exam/"
+    url = "http://codegnan.p4p3rb0at.aero.iitb.ac.in/exam/"
     selenium_test = SeleniumTest(url=url, quiz_name=quiz_name)
     return selenium_test.run_load_test(*args)
 
@@ -199,7 +199,7 @@ if __name__ == '__main__':
 
     quiz_name = "Demo quiz"
     module_name = "Demo Module"
-    course_name = "Yaksh Demo course"
+    course_name = "Codegnan Demo course"
     selenium_test = SeleniumTest(url=opts.url, quiz_name=quiz_name,
                                  module_name=module_name,
                                  course_name=course_name)

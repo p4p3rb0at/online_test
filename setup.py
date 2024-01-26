@@ -31,8 +31,8 @@ install_requires = [
 
 setup(
     name='codegnan',
-    author='Python Team at FOSSEE, IIT Bombay',
-    author_email='python@fossee.in',
+    author='Python Team at PAPERBOAT, IIT Bombay',
+    author_email='python@p4p3rb0at.in',
     version=get_version(),
     packages=find_packages(),
     include_package_data=True,
