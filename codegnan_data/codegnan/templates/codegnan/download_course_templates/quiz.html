@@ -74,7 +74,7 @@
                     <br>
                     <div class="text-center">
                         <!-- Change Codegnan TODO -->
-                        <a class="btn btn-success" href="http://codegnan.p4p3rb0at.in/exam/start/{{quiz.questionpaper_set.get.id}}/{{module.id}}/{{course.id}}" target="_blank">{{quiz.description}}</a>
+                        <a class="btn btn-success" href="../{{quiz.questionpaper_set.get.id}}/{{module.id}}/{{course.id}}" target="_blank">{{quiz.description}}</a>
                         {% if next_unit.type == 'lesson' %}
                         <a class="btn btn-info" href="../{{next_unit.lesson.name|replace_spaces}}/{{next_unit.lesson.name|replace_spaces}}.html">
                             Next
